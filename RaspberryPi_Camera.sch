@@ -1,0 +1,367 @@
+EESchema Schematic File Version 2
+LIBS:RaspberryPiCM-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RaspberryPiCM
+LIBS:open-project
+LIBS:mylib
+LIBS:RaspberryPiCM-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR055
+U 1 1 57B917CE
+P 1850 1200
+F 0 "#PWR055" H 1850 950 50  0001 C CNN
+F 1 "GND" H 1850 1050 50  0000 C CNN
+F 2 "" H 1850 1200 50  0000 C CNN
+F 3 "" H 1850 1200 50  0000 C CNN
+	1    1850 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR056
+U 1 1 57B91935
+P 2750 2850
+F 0 "#PWR056" H 2750 2700 50  0001 C CNN
+F 1 "+3V3" H 2750 2990 50  0000 C CNN
+F 2 "" H 2750 2850 50  0000 C CNN
+F 3 "" H 2750 2850 50  0000 C CNN
+	1    2750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 57B9197F
+P 1900 3150
+F 0 "R17" V 1900 3150 50  0000 C CNN
+F 1 "1.8K" H 1979 3237 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 1830 3150 50  0001 C CNN
+F 3 "" H 1900 3150 50  0000 C CNN
+F 4 "1%" H 1979 3150 50  0000 L CNN "許容誤差"
+F 5 "1005" H 1979 3063 50  0000 L CNN "サイズ"
+	1    1900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 57B91A15
+P 2300 3150
+F 0 "R18" V 2300 3150 50  0000 C CNN
+F 1 "1.8K" H 2379 3237 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2230 3150 50  0001 C CNN
+F 3 "" H 2300 3150 50  0000 C CNN
+F 4 "1%" H 2379 3150 50  0000 L CNN "許容誤差"
+F 5 "1005" H 2379 3063 50  0000 L CNN "サイズ"
+	1    2300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR057
+U 1 1 57B91AEA
+P 1900 3450
+F 0 "#PWR057" H 1900 3300 50  0001 C CNN
+F 1 "+3V3" H 1900 3590 50  0000 C CNN
+F 2 "" H 1900 3450 50  0000 C CNN
+F 3 "" H 1900 3450 50  0000 C CNN
+	1    1900 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 1450 1850 1450
+Wire Wire Line
+	1850 1200 1850 2350
+Wire Wire Line
+	1850 2350 1750 2350
+Wire Wire Line
+	1850 2050 1750 2050
+Connection ~ 1850 2050
+Wire Wire Line
+	1750 1750 1850 1750
+Connection ~ 1850 1750
+Connection ~ 1850 1450
+Wire Wire Line
+	1750 1550 2550 1550
+Wire Wire Line
+	1750 1650 2550 1650
+Wire Wire Line
+	1750 1850 2550 1850
+Wire Wire Line
+	1750 1950 2550 1950
+Wire Wire Line
+	1750 2150 2550 2150
+Wire Wire Line
+	1750 2250 2550 2250
+Wire Wire Line
+	1750 2450 2550 2450
+Wire Wire Line
+	1750 2550 2550 2550
+Wire Wire Line
+	1750 2650 2550 2650
+Wire Wire Line
+	1750 2750 2550 2750
+Wire Wire Line
+	1750 2850 2750 2850
+Wire Wire Line
+	1900 2650 1900 3000
+Connection ~ 1900 2650
+Wire Wire Line
+	2300 3000 2300 2750
+Connection ~ 2300 2750
+Wire Wire Line
+	1900 3300 1900 3450
+Wire Wire Line
+	1900 3350 2300 3350
+Wire Wire Line
+	2300 3350 2300 3300
+Connection ~ 1900 3350
+Text Notes 1500 1300 2    60   ~ 0
+CAM0
+$Comp
+L GND #PWR058
+U 1 1 57B9BA4B
+P 4650 1150
+F 0 "#PWR058" H 4650 900 50  0001 C CNN
+F 1 "GND" H 4650 1000 50  0000 C CNN
+F 2 "" H 4650 1150 50  0000 C CNN
+F 3 "" H 4650 1150 50  0000 C CNN
+	1    4650 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR059
+U 1 1 57B9BA5B
+P 5550 2800
+F 0 "#PWR059" H 5550 2650 50  0001 C CNN
+F 1 "+3V3" H 5550 2940 50  0000 C CNN
+F 2 "" H 5550 2800 50  0000 C CNN
+F 3 "" H 5550 2800 50  0000 C CNN
+	1    5550 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R19
+U 1 1 57B9BA63
+P 4700 3100
+F 0 "R19" V 4700 3100 50  0000 C CNN
+F 1 "1.8K" H 4779 3187 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 4630 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0000 C CNN
+F 4 "1%" H 4779 3100 50  0000 L CNN "許容誤差"
+F 5 "1005" H 4779 3013 50  0000 L CNN "サイズ"
+	1    4700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 57B9BA6B
+P 5100 3100
+F 0 "R20" V 5100 3100 50  0000 C CNN
+F 1 "1.8K" H 5179 3187 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 5030 3100 50  0001 C CNN
+F 3 "" H 5100 3100 50  0000 C CNN
+F 4 "1%" H 5179 3100 50  0000 L CNN "許容誤差"
+F 5 "1005" H 5179 3013 50  0000 L CNN "サイズ"
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1400 4650 1400
+Wire Wire Line
+	4650 1150 4650 2300
+Wire Wire Line
+	4650 2300 4550 2300
+Wire Wire Line
+	4650 2000 4550 2000
+Connection ~ 4650 2000
+Wire Wire Line
+	4550 1700 4650 1700
+Connection ~ 4650 1700
+Connection ~ 4650 1400
+Wire Wire Line
+	4550 1500 5350 1500
+Wire Wire Line
+	4550 1600 5350 1600
+Wire Wire Line
+	4550 1800 5350 1800
+Wire Wire Line
+	4550 1900 5350 1900
+Wire Wire Line
+	4550 2100 5350 2100
+Wire Wire Line
+	4550 2200 5350 2200
+Wire Wire Line
+	4550 2400 5350 2400
+Wire Wire Line
+	4550 2500 5350 2500
+Wire Wire Line
+	4550 2600 5350 2600
+Wire Wire Line
+	4550 2700 5350 2700
+Wire Wire Line
+	4550 2800 5550 2800
+Wire Wire Line
+	4700 2600 4700 2950
+Connection ~ 4700 2600
+Wire Wire Line
+	5100 2950 5100 2700
+Connection ~ 5100 2700
+Wire Wire Line
+	4700 3250 4700 3400
+Wire Wire Line
+	4700 3300 5100 3300
+Wire Wire Line
+	5100 3300 5100 3250
+Connection ~ 4700 3300
+Text Notes 4300 1250 2    60   ~ 0
+CAM1
+Text GLabel 2550 1550 2    50   Output ~ 0
+CAM0_DN0
+Text GLabel 2550 1650 2    50   Output ~ 0
+CAM0_DP0
+Text GLabel 2550 1850 2    50   Output ~ 0
+CAM0_DN1
+Text GLabel 2550 1950 2    50   Output ~ 0
+CAM0_DP1
+Text GLabel 2550 2150 2    50   Output ~ 0
+CAM0_CN
+Text GLabel 2550 2250 2    50   Output ~ 0
+CAM0_CP
+Text GLabel 2550 2450 2    50   Input ~ 0
+CAM0_IO0
+Text GLabel 2550 2550 2    50   Input ~ 0
+CAM0_IO1
+Text GLabel 2550 2650 2    50   Input ~ 0
+CD0_SCL
+Text GLabel 2550 2750 2    50   Input ~ 0
+CD0_SDA
+Wire Wire Line
+	4400 3800 5200 3800
+Wire Wire Line
+	4400 3900 5200 3900
+Wire Wire Line
+	4400 4000 5200 4000
+Wire Wire Line
+	4400 4100 5200 4100
+Text GLabel 5200 3800 2    50   Input ~ 0
+CAM1_IO0
+Text GLabel 5200 3900 2    50   Input ~ 0
+CAM1_IO1
+Text GLabel 5200 4000 2    50   Input ~ 0
+CD1_SCL
+Text GLabel 5200 4100 2    50   Input ~ 0
+CD1_SDA
+Text GLabel 4400 4100 0    50   BiDi ~ 0
+GPIO0
+Text GLabel 4400 4000 0    50   BiDi ~ 0
+GPIO1
+Text GLabel 4400 3900 0    50   BiDi ~ 0
+GPIO2
+Text GLabel 4400 3800 0    50   BiDi ~ 0
+GPIO3
+$Comp
+L SFW15R-2STE1LF J4
+U 1 1 57BADC78
+P 1250 2950
+F 0 "J4" H 1300 3700 60  0000 C CNN
+F 1 "Molex_52808-1571" H 1400 2850 60  0000 C CNN
+F 2 "myfootprint:CONN-MOLEX-52808-1571" H 1200 2750 60  0001 C CNN
+F 3 "" H 1200 2750 60  0000 C CNN
+	1    1250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SFW15R-2STE1LF J5
+U 1 1 57BADCB8
+P 4050 2900
+F 0 "J5" H 4100 3650 60  0000 C CNN
+F 1 "Molex_52808-1571" H 4200 2800 60  0000 C CNN
+F 2 "myfootprint:CONN-MOLEX-52808-1571" H 4000 2700 60  0001 C CNN
+F 3 "" H 4000 2700 60  0000 C CNN
+	1    4050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3800 2550 3800
+Wire Wire Line
+	1750 3900 2550 3900
+Wire Wire Line
+	1750 4000 2550 4000
+Wire Wire Line
+	1750 4100 2550 4100
+Text GLabel 2550 3800 2    50   Input ~ 0
+CAM0_IO0
+Text GLabel 2550 3900 2    50   Input ~ 0
+CAM0_IO1
+Text GLabel 2550 4000 2    50   Input ~ 0
+CD0_SCL
+Text GLabel 2550 4100 2    50   Input ~ 0
+CD0_SDA
+Text GLabel 1750 4100 0    50   BiDi ~ 0
+GPIO28
+Text GLabel 1750 4000 0    50   BiDi ~ 0
+GPIO29
+Text GLabel 1750 3900 0    50   BiDi ~ 0
+GPIO30
+Text GLabel 1750 3800 0    50   BiDi ~ 0
+GPIO31
+Text GLabel 5350 1500 2    50   Output ~ 0
+CAM1_DN0
+Text GLabel 5350 1600 2    50   Output ~ 0
+CAM1_DP0
+Text GLabel 5350 1800 2    50   Output ~ 0
+CAM1_DN1
+Text GLabel 5350 1900 2    50   Output ~ 0
+CAM1_DP1
+Text GLabel 5350 2100 2    50   Output ~ 0
+CAM1_CN
+Text GLabel 5350 2200 2    50   Output ~ 0
+CAM1_CP
+Text GLabel 5350 2400 2    50   Input ~ 0
+CAM1_IO0
+Text GLabel 5350 2500 2    50   Input ~ 0
+CAM1_IO1
+Text GLabel 5350 2600 2    50   Input ~ 0
+CD1_SCL
+Text GLabel 5350 2700 2    50   Input ~ 0
+CD1_SDA
+$EndSCHEMATC
